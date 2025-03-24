@@ -4,9 +4,10 @@ import { FoodService } from '../../service/food.service';
 import { apiResponseModel } from '../classes/restaurant.model';
 
 @Component({
-  selector: 'app-restaurant-food-item',
-  templateUrl: './restaurant-food-item.component.html',
-  styleUrls: ['./restaurant-food-item.component.css']
+    selector: 'app-restaurant-food-item',
+    templateUrl: './restaurant-food-item.component.html',
+    styleUrls: ['./restaurant-food-item.component.css'],
+    standalone: false
 })
 export class RestaurantFoodItemComponent {
   

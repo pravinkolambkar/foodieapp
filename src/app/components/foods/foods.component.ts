@@ -4,9 +4,10 @@ import { FoodService } from 'src/app/service/food.service';
 import { apiResponseModel } from '../classes/restaurant.model';
 
 @Component({
-  selector: 'app-foods',
-  templateUrl: './foods.component.html',
-  styleUrls: ['./foods.component.css']
+    selector: 'app-foods',
+    templateUrl: './foods.component.html',
+    styleUrls: ['./foods.component.css'],
+    standalone: false
 })
 export class FoodsComponent implements OnInit {
 

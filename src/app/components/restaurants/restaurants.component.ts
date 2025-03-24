@@ -4,9 +4,10 @@ import { RestaurantService } from 'src/app/service/restaurant.service';
 import { apiResponseModel, Restaurant } from '../classes/restaurant.model';
 
 @Component({
-  selector: 'app-restaurants',
-  templateUrl: './restaurants.component.html',
-  styleUrls: ['./restaurants.component.css']
+    selector: 'app-restaurants',
+    templateUrl: './restaurants.component.html',
+    styleUrls: ['./restaurants.component.css'],
+    standalone: false
 })
 export class RestaurantsComponent implements OnInit{
   newRestaurant: Restaurant = new Restaurant();

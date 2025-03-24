@@ -5,9 +5,10 @@ import { Router } from '@angular/router';
 import { apiResponseModel } from '../classes/restaurant.model';
 
 @Component({
-  selector: 'app-restaurant-serving-food',
-  templateUrl: './restaurant-serving-food.component.html',
-  styleUrls: ['./restaurant-serving-food.component.css']
+    selector: 'app-restaurant-serving-food',
+    templateUrl: './restaurant-serving-food.component.html',
+    styleUrls: ['./restaurant-serving-food.component.css'],
+    standalone: false
 })
 export class RestaurantServingFoodComponent {
 
