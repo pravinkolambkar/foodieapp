@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "zomatoApp:build:production"
+              "buildTarget": "zomatoApp:build:production"
             },
             "development": {
-              "browserTarget": "zomatoApp:build:development"
+              "buildTarget": "zomatoApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "zomatoApp:build"
+            "buildTarget": "zomatoApp:build"
           }
         },
         "test": {
