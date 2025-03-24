@@ -1,0 +1,93 @@
+<div class="container-fluid">
+	<div class="row mt-4 mb-2">
+		<div class="col-8 align-content-center">
+			<h3 class="title mb-4">Restaurant List</h3>
+			<div class="row mt-4">
+				<div class="col-6" *ngFor="let item of restaurantList">
+					<div class="card mb-3">
+						<div class="card-body">
+							<div class="row mb-1" >
+								<div class="col-3">
+									<img src="https://m.media-amazon.com/images/I/714CwNRkJIL._SY450_.jpg" class="img-height">
+								</div>
+								<div class="card-title col-9 text-end">
+									<p >{{ item.cuisineType }}</p>
+									<span class="smalltext">Address: {{ item.address | slice:0:20  }}</span><br>
+									<span class="smalltext">Contact No: {{ item.contactNo }}</span>
+									<span class="smalltext">Opening Hours: {{ item.openingHours }}</span>
+								</div>
+							</div>
+							<div class="row card-detail d-flex flex-row">
+								<div class="restname col-6 text-start">
+									{{ item.name }}
+								</div>
+								<div class="col-6 d-flex flex-row justify-content-end">
+									<button class="btn btn-success btn-sm" (click)="onEdit(item)">Edit</button>
+									<button class="btn btn-outline-warning btn-sm" (click)="onDelete(item.restaurantID)">Delete</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-3">
+				<div class="col-12 p-2" *ngIf="restaurantList.length == 0">
+					<h3>No restaurant currently serving this food item.</h3>
+				</div>
+			</div>
+		</div>
+		<div class="col-4 text-start mt-3">
+			<div class="card-body p-md-3 text-black-50 mt-5" id="card-body">
+					<h4 class="mb-3 text-black text-decoration-underline">Registration Form</h4>
+				
+					<div class="row">
+						<div class="col-md-12 mb-3">
+							<div data-mdb-input-init class="form-outline">
+								<input type="text" [(ngModel)] = "newRestaurant.name"  class="form-control form-control-lg" />
+								<label class="form-label" for="form3Example1m">Restaurant Name</label>
+							</div>
+						</div>	
+					</div>
+					<div class="row">
+						<div class="col-md-12 mb-3">
+							<div data-mdb-input-init class="form-outline">
+								<input type="text" [(ngModel)] = "newRestaurant.cuisineType"  class="form-control form-control-lg" />
+								<label class="form-label" for="form3Example1m1">Cuisine Type</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 mb-3">
+							<div data-mdb-input-init class="form-outline">
+								<input type="text" [(ngModel)] = "newRestaurant.address" class="form-control form-control-lg" />
+								<label class="form-label" for="form3Example8">Address</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 mb-3">
+							<div data-mdb-input-init class="form-outline">
+								<input type="text" [(ngModel)] = "newRestaurant.contactNo"  class="form-control form-control-lg" />
+								<label class="form-label" for="form3Example8">Contact No</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 mb-3">
+							<div data-mdb-input-init class="form-outline">
+								<input type="text" [(ngModel)] = "newRestaurant.openingHours" class="form-control form-control-lg" />
+								<label class="form-label" for="form3Example8">Opening Hours</label>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex justify-content-end pt-3">
+						<button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-secondary btn-lg" (click)="onReset()">Reset all</button>
+						
+						<button  type="button" *ngIf="newRestaurant.restaurantID == 0" data-mdb-button-init data-mdb-ripple-init class="btn btn-warning btn-lg ms-2" (click)="onRegister()">Register</button>
+						
+						<button  type="button" *ngIf="newRestaurant.restaurantID != 0" data-mdb-button-init data-mdb-ripple-init class="btn btn-warning btn-lg ms-2" (click)="onUpdate()">Update</button>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>

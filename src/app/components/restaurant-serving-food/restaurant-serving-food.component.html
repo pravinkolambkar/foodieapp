@@ -1,0 +1,32 @@
+<div class="row mt-4">
+   <div class="col-4" *ngFor="let item of restaurantList">
+		<div class="card">
+			<div class="card-body">
+				<div class="row">
+					<div class="col-4">
+						<img [src]="item.photoUrl" class="img-height">
+					</div>
+					<div class="card-title col-8 text-end">
+						{{ item.categoryName }}
+					</div>
+				</div>
+				<div class="row card-detail ">
+					<div class="col-5">
+						{{ item.restaurantName }}
+					</div>
+					<div class="col-4 text-center" >
+						{{ item.openingHours }}
+					</div>
+					<div class="col-3 text-end">
+						<button class="btn btn-success btn-sm" (click)="navigate(item.restaurantID)" [disabled]="!item.availability">Order</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row mt-3">
+   <div class="col-12 p-2" *ngIf="restaurantList.length == 0">
+		<h3>No restaurant currently serving this food item.</h3>
+	</div>
+</div>

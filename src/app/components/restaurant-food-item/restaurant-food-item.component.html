@@ -1,0 +1,85 @@
+<div class="row mt-4">
+	<div class="col-8">
+		<div class="row">
+			<div class="col-4" *ngFor="let item of fooditemList">
+				<div class="card m-1">
+					<div class="card-body m-0">
+						<div class="row pb-1">
+							<div class="col-4">
+								<img [src]="item.photoUrl" class="img-height">
+							</div>
+							<div class="col-8 text-start" style="padding-left: 25px;">
+								<strong style="font-size: 17px;">{{ item.menuItemName }}</strong><br>
+								<strong style="color: rgb(168, 10, 18);">{{ item.restaurantName }}</strong>
+								
+								<div class="text-start">
+									<small style="font-size: 14px;">{{ item.description | slice: 0:15 }}</small>
+								</div>
+							</div>
+						</div>
+						<div class="row card-detail">
+							<div class="col-4">
+								<i class="fa fa-inr" aria-hidden="true"></i>&nbsp;{{ item.price }}
+							</div>
+							
+							<div class="col-8 text-end">
+								<button class="btn btn-success btn-sm" (click)="addToCart(item.itemID
+)">Add To Cart</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="row">
+			<div class="col-12">
+				<h4>Cart Items</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 pt-2" *ngFor="let cart of cartItems">
+				<div class="card m-0">
+					<div class="card-body m-0">
+						<div class="row">
+							<div class="col-4">
+								<img [src]="cart.photoUrl" class="img-small-height">
+							</div>
+							<div class="col-8 text-end">
+								<strong style="font-size: 16px;">{{ cart.menuItemName }}</strong><br>
+								<i class="fa fa-inr"></i>{{ cart.price }} * {{ cart.quantity }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12" *ngIf="cartItems.length == 0">
+			<h3 style="color: rgb(168, 10, 18);">Cart is Empty</h3>
+		</div>
+		<div class="row">
+			<div class="col-12 text-end">
+				<!-- Total Amount - {{ totalAmount}} -->
+				<strong style="font-size: 17px;">Total Amount - {{ totalAmount }}</strong>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 ">
+				<textarea class="form-control" [(ngModel)] = "deliveryAddress"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 text-end mt-1">
+				<button class="btn btn-primary" [disabled]="cartItems.length == 0" (click)="onOrder()">Place Order</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="row mt-3">
+   <div class="col-12 p-2" *ngIf="fooditemList.length == 0">
+		<h3>This food item is unavailable with restaurants right now.</h3>
+	</div>
+</div>

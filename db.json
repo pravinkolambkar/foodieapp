@@ -1,0 +1,695 @@
+{
+  "message": "Sequence contains more than one element",
+  "result": true,
+  "GetAllFoodCategory": [
+    {
+      "categoryId": 1,
+      "categoryName": "Pizza",
+      "photoUrl": "https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png",
+      "id": "1"
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Burger",
+      "photoUrl": "https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png",
+      "id": "2"
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Sandwich",
+      "photoUrl": "https://b.zmtcdn.com/data/o2_assets/fc641efbb73b10484257f295ef0b9b981634401116.png",
+      "id": "3"
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "Cakes",
+      "photoUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTZahyec60fhlhJBlwlnmlgVQEb_pYr2beVlvlJyUc358yzKZw-04lT_nuUbDJABrfGo_rqvDrGAXDzmyrZZP5FSOUbeYJ5CoWtCN_3Eucm",
+      "id": "4"
+    },
+    {
+      "categoryId": 5,
+      "categoryName": "Paneer Makhani",
+      "photoUrl": "https://b.zmtcdn.com/data/dish_images/e44c42ff4b60b025225c8691ef9735b11635781903.png",
+      "id": "5"
+    },
+    {
+      "categoryId": 6,
+      "categoryName": "Fried Chicken",
+      "photoUrl": "https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png",
+      "id": "6"
+    },
+    {
+      "categoryId": 7,
+      "categoryName": "Chicken Biryani",
+      "photoUrl": "https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png",
+      "id": "7"
+    },
+    {
+      "categoryId": 8,
+      "categoryName": "Butter Chicken",
+      "photoUrl": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347444/india-food-butter-chicken/india-food-butter-chicken-1120x732.jpg",
+      "id": "8"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "Egg Noodles",
+      "photoUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/12/Noodles-with-chilli-oil-eggs-6ec34e9.jpg",
+      "id": "9"
+    },
+    {
+      "categoryId": 10,
+      "categoryName": "Fish Curry",
+      "photoUrl": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347405/india-food-malabar-fish-curry/india-food-malabar-fish-curry-1120x732.jpg",
+      "id": "10"
+    },
+    {
+      "categoryId": 11,
+      "categoryName": "South Indian food",
+      "photoUrl": "https://static.toiimg.com/thumb/msid-110053661,imgsize-138180,width-400,resizemode-4/110053661.jpg",
+      "id": "11"
+    },
+    {
+      "categoryId": 12,
+      "categoryName": "North Indian Food",
+      "photoUrl": "https://b.zmtcdn.com/data/o2_assets/019409fe8f838312214d9211be010ef31678798444.jpeg",
+      "id": "12"
+    },
+    {
+      "categoryId": 13,
+      "categoryName": "Chaat",
+      "photoUrl": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347465/india-food-aloo-chaat/india-food-aloo-chaat-1120x732.jpg",
+      "id": "13"
+    },
+    {
+      "categoryId": 14,
+      "categoryName": "Samosa",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnVgCV-6sbWMQ-OaALcEztviIakZJgzo5Jg&s",
+      "id": "14"
+    },
+    {
+      "categoryId": 15,
+      "categoryName": "Vada Pav",
+      "photoUrl": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347356/india-food-vada-pav/india-food-vada-pav-1120x732.jpg",
+      "id": "15"
+    },
+    {
+      "categoryId": 16,
+      "categoryName": "Dosa",
+      "photoUrl": "https://b.zmtcdn.com/data/o2_assets/8dc39742916ddc369ebeb91928391b931632716660.png",
+      "id": "16"
+    },
+    {
+      "categoryId": 17,
+      "categoryName": "Noodles",
+      "photoUrl": "https://www.cookerru.com/wp-content/uploads/2022/09/pan-fried-noodles-main-preview.jpg",
+      "id": "17"
+    },
+    {
+      "categoryId": 18,
+      "categoryName": "Shawarma",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%D0%A8%D0%B0%D1%83%D1%80%D0%BC%D0%B0_6.jpg/1024px-%D0%A8%D0%B0%D1%83%D1%80%D0%BC%D0%B0_6.jpg",
+      "id": "18"
+    },
+    {
+      "categoryId": 19,
+      "categoryName": "Momos",
+      "photoUrl": "https://b.zmtcdn.com/data/o2_assets/5dbdb72a48cf3192830232f6853735301632716604.png",
+      "id": "19"
+    },
+    {
+      "categoryId": 20,
+      "categoryName": "Spring Rolls",
+      "photoUrl": "https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png",
+      "id": "20"
+    },
+    {
+      "categoryId": 21,
+      "categoryName": "Barfi",
+      "photoUrl": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347454/india-food-barfi/india-food-barfi-1120x732.jpg",
+      "id": "21"
+    },
+    {
+      "categoryId": 22,
+      "categoryName": "Ras Malai",
+      "photoUrl": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347382/india-food-ras-malai/india-food-ras-malai-1120x732.jpg",
+      "id": "22"
+    },
+    {
+      "categoryId": 23,
+      "categoryName": "Lassi",
+      "photoUrl": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347409/india-food-lassi/india-food-lassi-1120x732.jpg",
+      "id": "23"
+    }
+  ],
+  "GetRestaurantServingByCategoryId": [
+    {
+      "restaurantID": 1,
+      "price": 0,
+      "categoryName": "Pizza",
+      "description": "Pizza",
+      "restaurantName": "McDonald's",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-psd/freshly-baked-pizza-with-cut-slice-isolated-transparent-background_191095-9041.jpg?t=st=1725691324~exp=1725694924~hmac=b0df30d751f6426557851ad1b376ec362c3892ff2063bb1a80662ef12575e144&w=740",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 1,
+      "id": "1"
+    },
+    {
+      "restaurantID": 2,
+      "price": 0,
+      "categoryName": "Pizza",
+      "description": "Pizza",
+      "restaurantName": "Domino's Pizza",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/side-view-pizza-with-chopped-pepper-board-cookware_176474-3183.jpg?t=st=1725691413~exp=1725695013~hmac=386997c301b94dade7b1779b3df43b60d5c5f471a2730dd9ae2b9bd6e5c23392&w=740",
+      "openingHours": "10AM- 9PM",
+      "categoryId": 1,
+      "id": "2"
+    },
+    {
+      "restaurantID": 3,
+      "price": 0,
+      "categoryName": "Pizza",
+      "description": "Pizza",
+      "restaurantName": "Pizza Hut",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?t=st=1725691488~exp=1725695088~hmac=7464ca86bfa57f573025dbf35fa47c408b776d25cdd8634d43b72ad2c9c30b9d&w=740",
+      "openingHours": "10AM- 9PM",
+      "categoryId": 1,
+      "id": "3"
+    },
+    {
+      "restaurantID": 1,
+      "price": 0,
+      "categoryName": "Burger",
+      "description": "Burger",
+      "restaurantName": "McDonald's",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/view-3d-delicious-looking-burger_23-2150914711.jpg?t=st=1725694946~exp=1725698546~hmac=fb72b65e83bc397c04824eb1652d121d67de2cfdeaaa12bff00a6afa76037056&w=740",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 2,
+      "id": "4"
+    },
+    {
+      "restaurantID": 4,
+      "price": 0,
+      "categoryName": "Burger",
+      "description": "Burger",
+      "restaurantName": "Burger King",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon_2829-5398.jpg?t=st=1725694510~exp=1725698110~hmac=f075ac64b5d4eefa2f7f7e4f3e0bd457daa04795a587249c318204198731ed9d&w=740",
+      "openingHours": "10AM- 9PM",
+      "categoryId": 2,
+      "id": "5"
+    },
+    {
+      "restaurantID": 2,
+      "price": 0,
+      "categoryName": "Burger",
+      "description": "Burger",
+      "restaurantName": "Domino's Pizza",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/delicious-looking-3d-burger-with-simple-background_23-2150914861.jpg?t=st=1725694715~exp=1725698315~hmac=47f375af779e69d08ca4f0ebcde2d1429971d672a863b4a337214045b35ce89a&w=740",
+      "openingHours": "10AM- 9PM",
+      "categoryId": 2,
+      "id": "6"
+    },
+    {
+      "restaurantID": 3,
+      "price": 0,
+      "categoryName": "Burger",
+      "description": "Burger",
+      "restaurantName": "Pizza Hut",
+      "availability": true,
+      "photoUrl": "https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png",
+      "openingHours": "10AM- 10PM",
+      "categoryId": 2,
+      "id": "7"
+    },
+    {
+      "restaurantID": 5,
+      "price": 0,
+      "categoryName": "Sandwich",
+      "description": "Sandwich",
+      "restaurantName": "Balaji Sandwich",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?t=st=1725695243~exp=1725698843~hmac=afc5dbace7bc8126bff1cd087ff0d05801401f6785b69e680c05f223952f568b&w=740",
+      "openingHours": "8AM- 10PM",
+      "categoryId": 3,
+      "id": "8"
+    },
+    {
+      "restaurantID": 1,
+      "price": 0,
+      "categoryName": "Sandwich",
+      "description": "Sandwich",
+      "restaurantName": "McDonald's",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/grilled-sandwich-with-bacon-fried-egg-tomato-lettuce-served-wooden-cutting-board_1150-42571.jpg?t=st=1725695405~exp=1725699005~hmac=d1561b5f90aa203d4d02f5e73cf2f7002f618c432a697dd550b22aa437b7b1a1&w=740",
+      "openingHours": "8AM- 8PM",
+      "categoryId": 3,
+      "id": "9"
+    },
+    {
+      "restaurantID": 6,
+      "price": 0,
+      "categoryName": "Cakes",
+      "description": "Cakes",
+      "restaurantName": "Monginis",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/delicious-cake-with-fruits_23-2150727658.jpg?t=st=1725696036~exp=1725699636~hmac=97cfcf0d49ad19a6b17d4bad5fef37a53872bd2e409906a1ffa59ff69128fc58&w=740",
+      "openingHours": "8AM- 8PM",
+      "categoryId": 4,
+      "id": "10"
+    },
+    {
+      "restaurantID": 7,
+      "price": 0,
+      "categoryName": "Cakes",
+      "description": "Cakes",
+      "restaurantName": "Cake Shop",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/birthday-cake_23-2150734952.jpg?t=st=1725696102~exp=1725699702~hmac=e0cfa57f3633bee3089cca42c254899cb1e321a5b32ace8b543c9c27eb9e9eb7&w=826",
+      "openingHours": "8AM- 10PM",
+      "categoryId": 4,
+      "id": "11"
+    },
+    {
+      "restaurantID": 8,
+      "price": 0,
+      "categoryName": "Chicken Biryani",
+      "description": "Chicken Biryani",
+      "restaurantName": "Biryani Blues",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/veg-biryani-veg-pulav-fried-rice-indian-food-generative-ai_1258-151587.jpg?t=st=1725720007~exp=1725723607~hmac=c8eabe149b2d60f7245d46b9a96d9a21a751a4c18da28b281b006a13ee8e3f98&w=740",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 7,
+      "id": "12"
+    },
+    {
+      "restaurantID": 9,
+      "price": 0,
+      "categoryName": "Chicken Biryani",
+      "description": "Chicken Biryani",
+      "restaurantName": "CopperChimney",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?t=st=1725720120~exp=1725723720~hmac=701f23057485e211996096344f756c0cb4203456338948ba627de34e3e991db7&w=740",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 7,
+      "id": "13"
+    },
+    {
+      "restaurantID": 10,
+      "price": 0,
+      "categoryName": "Chicken Biryani",
+      "description": "Chicken Biryani",
+      "restaurantName": "Barista",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/gourmet-biryani-with-saffron-rice-chicken-generated-by-ai_188544-39093.jpg?t=st=1725719929~exp=1725723529~hmac=c84385edfe0e5017489bc13add76823de32c353f9f84183388615998b31d1097&w=826",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 7,
+      "id": "14"
+    },
+    {
+      "restaurantID": 11,
+      "price": 0,
+      "categoryName": "Vada Pav",
+      "description": "Vada Pav",
+      "restaurantName": "Bhau Vadapav",
+      "availability": true,
+      "photoUrl": "https://assets.gqindia.com/photos/625e4dacfcfaab5b0ecc5ee0/16:9/w_1600,c_limit/vada-pav%20(1).jpg",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 15,
+      "id": "15"
+    },
+    {
+      "restaurantID": 12,
+      "price": 0,
+      "categoryName": "Vada Pav",
+      "description": "Vada Pav",
+      "restaurantName": "KunjVihar",
+      "availability": true,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Vada_Pav-Indian_street_food.JPG/1024px-Vada_Pav-Indian_street_food.JPG",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 15,
+      "id": "16"
+    },
+    {
+      "restaurantID": 12,
+      "price": 0,
+      "categoryName": "Dosa",
+      "description": "Dosa",
+      "restaurantName": "Barista",
+      "availability": true,
+      "photoUrl": "https://www.awesomecuisine.com/wp-content/uploads/2009/06/Plain-Dosa.jpg",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 16,
+      "id": "17"
+    },
+    {
+      "restaurantID": 13,
+      "price": 0,
+      "categoryName": "Dosa",
+      "description": "Dosa",
+      "restaurantName": "Madras Cafe",
+      "availability": true,
+      "photoUrl": "https://www.awesomecuisine.com/wp-content/uploads/2009/06/Plain-Dosa.jpg",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 16,
+      "id": "18"
+    },
+    {
+      "restaurantID": 13,
+      "price": 0,
+      "categoryName": "Lassi",
+      "description": "Lassi",
+      "restaurantName": "Madras Cafe",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/premium-photo/lychee-smoothie-with-studio-background_741910-13629.jpg?w=740",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 23,
+      "id": "19"
+    },
+    {
+      "restaurantID": 12,
+      "price": 0,
+      "categoryName": "Lassi",
+      "description": "Lassi",
+      "restaurantName": "Barista",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/ayran-drink-with-mint-cucumber-glass-wooden-table_123827-22326.jpg?t=st=1725722411~exp=1725726011~hmac=3cfb783cf13971a14aaacb190ccd736048d3b824a613761ac9d050c32cf1bba7&w=740",
+      "openingHours": "11AM- 9PM",
+      "categoryId": 23,
+      "id": "20"
+    }
+  ],
+  "GetFoodItemOfRestaurantByCategory": [
+    {
+      "restaurantID": 1,
+      "restaurantName": "McDonald's",
+      "price": 300,
+      "menuItemName": "Veg Pizza",
+      "itemID": 1,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-psd/freshly-baked-pizza-with-cut-slice-isolated-transparent-background_191095-9041.jpg?t=st=1725691324~exp=1725694924~hmac=b0df30d751f6426557851ad1b376ec362c3892ff2063bb1a80662ef12575e144&w=740",
+      "categoryId": 1
+    },
+    {
+      "restaurantID": 1,
+      "restaurantName": "McDonald's",
+      "price": 300,
+      "menuItemName": "Margarita Pizza",
+      "itemID": 2,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg",
+      "categoryId": 1
+    },
+    {
+      "restaurantID": 2,
+      "restaurantName": "Domino's Pizza",
+      "price": 200,
+      "menuItemName": "Pizza",
+      "itemID": 3,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/side-view-pizza-with-chopped-pepper-board-cookware_176474-3183.jpg?t=st=1725691413~exp=1725695013~hmac=386997c301b94dade7b1779b3df43b60d5c5f471a2730dd9ae2b9bd6e5c23392&w=740",
+      "categoryId": 1
+    },
+    {
+      "restaurantID": 3,
+      "restaurantName": "Pizza Hut",
+      "price": 245,
+      "menuItemName": "Pizza",
+      "itemID": 4,
+      "description": "The awesome foursome! Golden corn, black olives, capsicum, red paprika",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?t=st=1725691488~exp=1725695088~hmac=7464ca86bfa57f573025dbf35fa47c408b776d25cdd8634d43b72ad2c9c30b9d&w=740",
+      "categoryId": 1
+    },
+    {
+      "restaurantID": 1,
+      "restaurantName": "McDonald's",
+      "price": 200,
+      "menuItemName": "Burger",
+      "itemID": 5,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/view-3d-delicious-looking-burger_23-2150914711.jpg?t=st=1725694946~exp=1725698546~hmac=fb72b65e83bc397c04824eb1652d121d67de2cfdeaaa12bff00a6afa76037056&w=740",
+      "categoryId": 2
+    },
+    {
+      "restaurantID": 4,
+      "restaurantName": "Burger King",
+      "price": 250,
+      "menuItemName": "Burger",
+      "itemID": 6,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon_2829-5398.jpg?t=st=1725694510~exp=1725698110~hmac=f075ac64b5d4eefa2f7f7e4f3e0bd457daa04795a587249c318204198731ed9d&w=740",
+      "categoryId": 2
+    },
+    {
+      "restaurantID": 2,
+      "restaurantName": "Domino's Pizza",
+      "price": 200,
+      "menuItemName": "Burger",
+      "itemID": 7,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/delicious-looking-3d-burger-with-simple-background_23-2150914861.jpg?t=st=1725694715~exp=1725698315~hmac=47f375af779e69d08ca4f0ebcde2d1429971d672a863b4a337214045b35ce89a&w=740",
+      "categoryId": 2
+    },
+    {
+      "restaurantID": 3,
+      "restaurantName": "Pizza Hut",
+      "price": 240,
+      "menuItemName": "Burger",
+      "itemID": 8,
+      "description": "Classic delight with 100% real mozzarella cheese. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
+      "availability": true,
+      "photoUrl": "https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png",
+      "categoryId": 2
+    },
+    {
+      "restaurantID": 5,
+      "restaurantName": "Balaji Sandwich",
+      "price": 200,
+      "menuItemName": "Sandwich",
+      "itemID": 9,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?t=st=1725695243~exp=1725698843~hmac=afc5dbace7bc8126bff1cd087ff0d05801401f6785b69e680c05f223952f568b&w=740",
+      "categoryId": 3
+    },
+    {
+      "restaurantID": 1,
+      "restaurantName": "McDonald's",
+      "price": 230,
+      "menuItemName": "Sandwich",
+      "itemID": 10,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/grilled-sandwich-with-bacon-fried-egg-tomato-lettuce-served-wooden-cutting-board_1150-42571.jpg?t=st=1725695405~exp=1725699005~hmac=d1561b5f90aa203d4d02f5e73cf2f7002f618c432a697dd550b22aa437b7b1a1&w=740",
+      "categoryId": 3
+    },
+    {
+      "restaurantID": 6,
+      "restaurantName": "Monginis",
+      "price": 500,
+      "menuItemName": "Cakes",
+      "itemID": 11,
+      "description": "delicious",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/delicious-cake-with-fruits_23-2150727658.jpg?t=st=1725696036~exp=1725699636~hmac=97cfcf0d49ad19a6b17d4bad5fef37a53872bd2e409906a1ffa59ff69128fc58&w=740",
+      "categoryId": 4
+    },
+    {
+      "restaurantID": 7,
+      "restaurantName": "Cake Shop",
+      "price": 550,
+      "menuItemName": "Cakes",
+      "itemID": 12,
+      "description": "delicious",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/birthday-cake_23-2150734952.jpg?t=st=1725696102~exp=1725699702~hmac=e0cfa57f3633bee3089cca42c254899cb1e321a5b32ace8b543c9c27eb9e9eb7&w=826",
+      "categoryId": 4
+    },
+    {
+      "restaurantID": 8,
+      "restaurantName": "Biryani Blues",
+      "price": 600,
+      "menuItemName": "Chicken Biryani",
+      "itemID": 13,
+      "description": "Awesome taste",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/veg-biryani-veg-pulav-fried-rice-indian-food-generative-ai_1258-151587.jpg?t=st=1725720007~exp=1725723607~hmac=c8eabe149b2d60f7245d46b9a96d9a21a751a4c18da28b281b006a13ee8e3f98&w=740",
+      "categoryId": 7
+    },
+    {
+      "restaurantID": 9,
+      "restaurantName": "CopperChimney",
+      "price": 600,
+      "menuItemName": "Chicken Biryani",
+      "itemID": 14,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?t=st=1725720120~exp=1725723720~hmac=701f23057485e211996096344f756c0cb4203456338948ba627de34e3e991db7&w=740",
+      "categoryId": 7
+    },
+    {
+      "restaurantID": 10,
+      "restaurantName": "Barista",
+      "price": 550,
+      "menuItemName": "Chicken Biryani",
+      "itemID": 15,
+      "description": "Chirpy Crowd, Cozy Ambiance, Quality of Food, Not very Crowded, Pocket Friendly, Menu Options",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/gourmet-biryani-with-saffron-rice-chicken-generated-by-ai_188544-39093.jpg?t=st=1725719929~exp=1725723529~hmac=c84385edfe0e5017489bc13add76823de32c353f9f84183388615998b31d1097&w=826",
+      "categoryId": 7
+    },
+    {
+      "restaurantID": 11,
+      "restaurantName": "Bhau Vadapav",
+      "price": 50,
+      "menuItemName": "Vada Pav",
+      "itemID": 16,
+      "description": "fabulus",
+      "availability": true,
+      "photoUrl": "https://assets.gqindia.com/photos/625e4dacfcfaab5b0ecc5ee0/16:9/w_1600,c_limit/vada-pav%20(1).jpg",
+      "categoryId": 15
+    },
+    {
+      "restaurantID": 12,
+      "restaurantName": "KunjVihar",
+      "price": 105,
+      "menuItemName": "Vada Pav",
+      "itemID": 17,
+      "description": "The World's favourite Indian burger! Crunchy potato and peas patty with delicious Tom Mayo & crunchy onions; now with Whole Wheat Bun",
+      "availability": true,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Vada_Pav-Indian_street_food.JPG/1024px-Vada_Pav-Indian_street_food.JPG",
+      "categoryId": 15
+    },
+    {
+      "restaurantID": 12,
+      "restaurantName": "Barista",
+      "price": 150,
+      "menuItemName": "Dosa",
+      "itemID": 18,
+      "description": "Authentic taste",
+      "availability": true,
+      "photoUrl": "https://www.awesomecuisine.com/wp-content/uploads/2009/06/Plain-Dosa.jpg",
+      "categoryId": 16
+    },
+    {
+      "restaurantID": 13,
+      "restaurantName": "Madras Cafe",
+      "price": 160,
+      "menuItemName": "Dosa",
+      "itemID": 19,
+      "description": "Authentic taste",
+      "availability": true,
+      "photoUrl": "https://www.awesomecuisine.com/wp-content/uploads/2009/06/Plain-Dosa.jpg",
+      "categoryId": 16
+    },
+    {
+      "restaurantID": 13,
+      "restaurantName": "Madras Cafe",
+      "price": 200,
+      "menuItemName": "Lassi",
+      "itemID": 20,
+      "description": "Chirpy Crowd, Cozy Ambiance, Quality of Food, Not very Crowded, Pocket Friendly, Menu Options",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/premium-photo/lychee-smoothie-with-studio-background_741910-13629.jpg?w=740",
+      "categoryId": 23
+    },
+    {
+      "restaurantID": 12,
+      "restaurantName": "Barista",
+      "price": 220,
+      "menuItemName": "Lassi",
+      "itemID": 21,
+      "description": "eat",
+      "availability": true,
+      "photoUrl": "https://img.freepik.com/free-photo/ayran-drink-with-mint-cucumber-glass-wooden-table_123827-22326.jpg?t=st=1725722411~exp=1725726011~hmac=3cfb783cf13971a14aaacb190ccd736048d3b824a613761ac9d050c32cf1bba7&w=740",
+      "categoryId": 23
+    }
+  ],
+  "AddNewUser": [
+    {
+      "id": "1",
+      "userId": 1,
+      "userName": "ramu",
+      "role": "Customer",
+      "password": "ramu",
+      "mobileNo": "1231231234",
+      "emailId": "ramu@123.com",
+      "restaurantId": 0
+    }
+  ],
+  "Login": [
+    {
+      "id": "1",
+      "userName": "ramu",
+      "password": "ramu"
+    },
+    {
+      "id": "a9e8",
+      "userName": "ramu",
+      "password": "ramu"
+    },
+    {
+      "id": "77ba",
+      "userName": "ramu",
+      "password": "ramu"
+    },
+    {
+      "id": "519e",
+      "userName": "ramu",
+      "password": "ramu"
+    },
+    {
+      "id": "ac2a",
+      "userName": "ramu",
+      "password": "ramu"
+    }
+  ],
+  "AddToCart": [
+    {
+      "id": "1",
+      "quantity": 1
+    },
+    {
+      "id": "72eb",
+      "quantity": 1
+    },
+    {
+      "id": "48b5",
+      "quantity": 1
+    },
+    {
+      "id": "098f",
+      "quantity": 1
+    },
+    {
+      "id": "0f52",
+      "quantity": 1
+    },
+    {
+      "id": "f816",
+      "quantity": 1
+    },
+    {
+      "id": "2ed6",
+      "quantity": 1
+    },
+    {
+      "id": "26e0",
+      "quantity": 1
+    }
+  ],
+  "AddNewOrder": [],
+  "GetCartItemsByCustomerIdForRestaurant": [],
+  "GetAllOrders": []
+}
